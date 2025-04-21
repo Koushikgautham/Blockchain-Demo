@@ -16,12 +16,12 @@ Nakamacoin.minePendingTransactions(myWalletAddress);
 
 console.log("The Nonce of the Block created : ", Nakamacoin.chain[1].nonce);
 console.log("Is the Chain Valid? : ", Nakamacoin.ischainValid());
-console.log("\nBalance of Gautham is ", Nakamacoin.getBalanceofAddress(myWalletAddress));
+console.log("\nBalance of Miner is ", Nakamacoin.getBalanceofAddress(myWalletAddress));
 
 console.log("\nStarting the Miner...");
 Nakamacoin.minePendingTransactions(myWalletAddress);
 
 console.log("The Nonce of the Block created : ", Nakamacoin.chain[2].nonce);
 console.log("Is the Chain Valid? : ", Nakamacoin.ischainValid());
-console.log("\nBalance of Gautham is ", Nakamacoin.getBalanceofAddress(myWalletAddress));
+console.log("\nBalance of Miner is ", Nakamacoin.getBalanceofAddress(myWalletAddress));
 
